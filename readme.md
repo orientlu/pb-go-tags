@@ -48,6 +48,11 @@ strip out all comments that are on the same line.
 the directory that the utility should process and it will recursively scan
 all files and transform all go files with the ending .pb.go
 
+```
+$ go install github.com/orientlu/pb-go-tags/protoc-go-tags
+$ protoc-go-tags -dir .
+```
+
 4. The additional tags should now be included in your .pb.go files
 
 # SQL-Queries with Named Parameters
